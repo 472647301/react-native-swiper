@@ -24,7 +24,7 @@ declare module 'react-native-byron-swiper' {
     indicatorContainerHeight: number
     indicatorContainerBackgroundColor: string
 
-    onPress: () => void
+    onPress: (i:number) => void
     onScrollEnd: () => void
   }
 
